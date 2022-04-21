@@ -1,0 +1,142 @@
+*{
+    background-color:#fff7ed;
+  }
+  
+  .container{
+    margin:auto;
+    max-width:60%;
+    padding-top: 5%;
+  }
+  
+  .container .flame{
+    font-size:2rem;
+    text-align: center;
+  }
+  
+  .container .candle{
+    background: radial-gradient(circle, rgba(245,158,11,1) 15%, rgba(180,109,9,1) 85%);
+    margin:0rem 48%;
+    height:7rem;
+    border-top-right-radius:20px;
+    border-top-left-radius:20px;
+  }
+  
+  .container .first{
+    background-color:#fde68a;
+    margin:0rem 40%;
+    height:4rem;
+    border-top-right-radius:40%;
+    border-top-left-radius:40%;
+  }
+  
+  .container .second{
+    background-color:#fed7aa;
+    margin:0rem 30%;
+    height:6rem;
+    border-top-right-radius:30%;
+    border-top-left-radius:30%;
+  }
+  
+  .container .third{
+    background-color:#fecaca;
+    margin:0rem 20%;
+    height:8rem;
+    border-top-right-radius:40%;
+    border-top-left-radius:40%;
+  }
+  
+  .container .third .cake-pattern{
+    background-color:#fca5a5;
+    margin:0rem 0rem;
+    height:2rem;
+    width:100%;
+  }
+  
+  .container .third .cake-pattern-w-f{
+    background-color:white;
+    margin:0rem 0rem;
+    height:2rem;
+    width:100%;
+    border-top-right-radius:40%;
+    border-top-left-radius:40%;
+  }
+  
+  .container .third .cake-pattern-w{
+    background-color:white;
+    margin:0rem 0rem;
+    height:2rem;
+    width:100%;
+  }
+
+  .container .fourth{
+    background-color:#fdba74;    ;
+    margin:0rem 10%;
+    height:10rem;
+    border-top-right-radius:15%;
+    border-top-left-radius:15%;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .container .flame{
+      font-size: 1rem;
+    }
+
+    .container .candle{
+        height:2.5rem;
+    }
+
+    .container .first{
+        background-color:#fde68a;
+        margin:0rem 40%;
+        height:3rem;
+        border-top-right-radius:40%;
+        border-top-left-radius:40%;
+      }
+
+    .container .second{
+        background-color:#fed7aa;
+        margin:0rem 30%;
+        height:4rem;
+        border-top-right-radius:30%;
+        border-top-left-radius:30%;
+      }
+
+    .container .third{
+        background-color:#fecaca;
+        margin:0rem 20%;
+        height:4rem;
+        border-top-right-radius:40%;
+        border-top-left-radius:40%;
+      }
+
+      .container .third .cake-pattern{
+        background-color:#fca5a5;
+        margin:0rem 0rem;
+        height:1rem;
+        width:100%;
+      }
+      
+      .container .third .cake-pattern-w-f{
+        background-color:white;
+        margin:0rem 0rem;
+        height:1rem;
+        width:100%;
+        border-top-right-radius:40%;
+        border-top-left-radius:40%;
+      }
+      
+      .container .third .cake-pattern-w{
+        background-color:white;
+        margin:0rem 0rem;
+        height:1rem;
+        width:100%;
+      }
+
+    .container .fourth{
+        background-color:#fdba74;    ;
+        margin:0rem 10%;
+        height:6rem;
+        border-top-right-radius:15%;
+        border-top-left-radius:15%;
+      }
+  }
